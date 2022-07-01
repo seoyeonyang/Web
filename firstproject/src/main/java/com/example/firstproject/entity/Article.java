@@ -2,6 +2,7 @@ package com.example.firstproject.entity;
 
 
 import lombok.AllArgsConstructor;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
 
@@ -13,6 +14,7 @@ import javax.persistence.Id;
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString
+@Getter
 @Entity //DB가 해당 객체를 인식 할 수 있도록 해주는 어노테이션
 public class Article {
 
